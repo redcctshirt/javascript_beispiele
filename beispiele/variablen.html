@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  	<meta charset="utf-8">
+  	<title>Projekt</title>
+
+</head>
+<body>
+
+	<!-- Javascript-Kommandos ausführen -->
+	<script> 
+	var dieBreite = 100;	/* Variable deklarieren */
+							/* Name der Variable: nur Buchstaben, Zahlen, _, $ - Name darf nicht mit einer Zahl anfangen - case sensitive */
+	text = "Hi, " + 'Hallo';
+	var x;					/* Variable ohne Wert - undefined */
+	var a = 20, b = 20;		/* a und b deklarieren */
+
+	dieBreite += 10;		/* dieBreite = dieBreite + 10; */
+	dieBreite++;			/* +1 */
+	++dieBreite;
+
+	document.write(dieBreite + "<br>");	/* Ausgabe */
+	document.write(text + "<br>");
+	document.write(x + "<br>");
+	document.write(a + "<br>" + b + "<br>");
+	document.write(typeof text + "<br>"); /* Typ der Variable ermitteln */
+	document.write(text.length + "<br>"); /* Länge der Variable ermitteln */
+  	
+
+	/* let statt var ist ebenfalls möglich, aber nur im strikten Modus, und ist Best Practice
+	
+	'use strict';
+	let c = 1;  */
+		
+	</script>
+
+</body>
+</html>

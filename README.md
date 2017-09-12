@@ -10,6 +10,7 @@
 
 * [HTML - Javascript einbinden](beispiele/js_einbinden.html)
 * [Javascript - Eingabe prompt](beispiele/prompt.html)
+* [Javascript - Variablen](beispiele/variablen.html)
 * [Javascript - Math](beispiele/math.html]
 
 ### Lizenz
