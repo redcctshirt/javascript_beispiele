@@ -2,9 +2,15 @@
 
 ### Lernen
 
-### Kommandos
+* [wikibooks:js](https://de.wikibooks.org/wiki/Websiteentwicklung:_JavaScript)
+* [selfhtml:js](https://wiki.selfhtml.org/wiki/JavaScript)
+* [Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/)
 
 ### Beispiele
+
+* [HTML - Javascript einbinden](beispiele/js_einbinden.html)
+* [Javascript - Eingabe prompt](beispiele/prompt.html)
+* [Javascript - Math](beispiele/math.html]
 
 ### Lizenz
 
