@@ -10,9 +10,19 @@
 
 	<!-- Javascript-Kommandos ausführen -->
 	<script> 
-	a = Math.sqrt(9.81);	// Quadratwurzel
+	a = Math.sqrt(9.81);	/*  Quadratwurzel */
+	winkel = 60 * (Math.PI / 180);	/* Pi */
+	s = Math.sin(winkel);	// Sinus
+	b = Math.round(s);		// Runden 
+	c = Math.pow(10,7);		// 10 hoch 7
+	d = Math.random() * 10; // Math.random() - Zufallszahl zwischen 0 und 1
 
-	document.write("Quadratwurzel (square root) - Math.sqrt(9.81): " + a); 
+	document.write("Quadratwurzel (square root) - Math.sqrt(9.81): " + a + "<br>"); 
+	document.write(winkel + "<br>");
+	document.write(s + "<br>");
+	document.write(b + "<br>");
+	document.write(c + "<br>");
+	document.write(d + "<br>");
   	</script>
 
 </body>

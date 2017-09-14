@@ -12,6 +12,8 @@
 * [Javascript - Eingabe prompt](beispiele/prompt.html)
 * [Javascript - Variablen](beispiele/variablen.html)
 * [Javascript - Math](beispiele/math.html]
+* [Javascript - For-Schleife](beispiele/for.html]
+* [Javascript - If - Wenn ... Dann ...](beispiele/if.html]
 
 ### Lizenz
 
