@@ -10,13 +10,21 @@
 
 	<!-- Javascript-Kommandos ausführen -->
 	<script>
-	var a = 10; 
-	if(a == 10) {	// if-Bedingung - Wenn ... Dann ...
-		document.write("a ist gleich 10");
+    var b = 10;
+	var a = 12; 
+
+	if(b == 10) {	// if-Bedingung - Wenn ... Dann ...
+		document.write("b ist gleich 10<br>");
 	}
+
 	if(a == 11) {	// if-Bedingung - Wenn ... Dann ...
 		document.write("a ist gleich 11");
-	}	
+	} else if (a == 12) {
+		document.write("a ist gleich 12");
+	} else {		// Ansonsten, ausführen wenn Bedingung nicht zutrifft
+		document.write("a ist nicht 11 oder 12");
+	}
+	
   	</script>
 
 </body>

@@ -14,6 +14,9 @@
 * [Javascript - Math](beispiele/math.html]
 * [Javascript - For-Schleife](beispiele/for.html]
 * [Javascript - If - Wenn ... Dann ...](beispiele/if.html]
+* [Javascript - Do While-Schleife](beispiele/do_while.html]
+* [Javascript - charAt](beispiele/charat.html]
+* [Javascript - Funktion](beispiele/function.html]
 
 ### Lizenz
 
