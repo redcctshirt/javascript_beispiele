@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  	<meta charset="utf-8">
+  	<title>Projekt</title>
+
+</head>
+<body>
+
+	<!-- Javascript-Kommandos ausführen -->
+	<script> 
+	var dieListe = [23, "Hi", 34, 56, 9]	/* Liste deklarieren */
+	var dieListe2 = new Array(42, "Hallo");
+
+	dieListe.push("lol");	/* push - Wert zur Liste hinzufügen */
+	dieListe.pop();	/* letztes Element der Liste entfernen */
+	dieListe.shift();	/* erstes Element der Liste entfernen */
+	dieListe.sort();	/* Liste sortieren */
+
+	document.write(dieListe.length + "<br>"); /* Länge der Variable ermitteln */
+    document.write(dieListe[0] + "<br>"); /* Ausgabe Index 0 */
+
+	for(var i=0; i < dieListe.length; i++) { document.write(dieListe[i] + "<br>"); }	// Liste per Index ausgeben
+	for(var i in dieListe) { document.write(dieListe[i] + "<br>"); }	// Liste per Index ausgeben
+	for(var i of dieListe) { document.write(i + "<br>"); }	// Liste per Element ausgeben
+
+	</script>
+
+</body>
+</html>
